@@ -1,2 +1,2 @@
 # PowerSupply
- PSU LiFI
+ PSU LiFi
