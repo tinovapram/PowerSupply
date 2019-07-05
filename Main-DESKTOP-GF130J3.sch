@@ -30798,32 +30798,32 @@ Allows current flow in one direction, but allows reverse flow when above breakdo
 <part name="LBST" library="Wurth_Elektronik_Passive_rev18f" library_urn="urn:adsk.eagle:library:7584915" deviceset="WE-SI" device="_744139" package3d_urn="urn:adsk.eagle:package:7586520/3" value="494.23uH"/>
 <part name="COUT" library="cap-pan40" deviceset="C-NP" device="-10,0-14,0X6,0" value="5.435mF"/>
 <part name="DSTART" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="1N4446" device="" package3d_urn="urn:adsk.eagle:package:43344/2"/>
-<part name="RGATE1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="1.07"/>
-<part name="RGATE2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0201" package3d_urn="urn:adsk.eagle:package:26117/2" value="10K"/>
+<part name="RGATE1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="1.07"/>
+<part name="RGATE2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10K"/>
 <part name="IC1" library="SamacSys_Parts" deviceset="UCC28180D" device=""/>
 <part name="PGND" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device="" value="PGND"/>
 <part name="CVSENSE" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="820nF"/>
-<part name="CICOMP" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0201" package3d_urn="urn:adsk.eagle:package:23690/2" value="1.5nF"/>
-<part name="RISENSE" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="221"/>
+<part name="CICOMP" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603K" package3d_urn="urn:adsk.eagle:package:23680/2" value="1.5nF"/>
+<part name="RISENSE" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="221"/>
 <part name="VBULK" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VPP" device=""/>
-<part name="RFREQ1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="17.4K"/>
+<part name="RFREQ1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="17.4K"/>
 <part name="L5" library="Wurth_Elektronik_Passive_rev18f" library_urn="urn:adsk.eagle:library:7584915" deviceset="WE-FI" device="_7447016" package3d_urn="urn:adsk.eagle:package:7586765/3"/>
 <part name="L6" library="Wurth_Elektronik_Passive_rev18f" library_urn="urn:adsk.eagle:library:7584915" deviceset="WE-FI" device="_7447016" package3d_urn="urn:adsk.eagle:package:7586765/3"/>
 <part name="DBOOST" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="DIODE-" device="TO220V" package3d_urn="urn:adsk.eagle:package:43373/3" value="LXA06T600"/>
 <part name="Q2" library="transistor-power" library_urn="urn:adsk.eagle:library:400" deviceset="PMOSFET_N" device="TO220BV" package3d_urn="urn:adsk.eagle:package:29484/3" value="IPA60R330P6XKSA1"/>
-<part name="CISENSE" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0201" package3d_urn="urn:adsk.eagle:package:23690/2" value="1nF"/>
+<part name="CISENSE" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402" package3d_urn="urn:adsk.eagle:package:23626/2" value="1nF"/>
 <part name="CVCOMP" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="22uF"/>
 <part name="SUPPLY2" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device="" value="PGND"/>
 <part name="DTURNOFF" library="SamacSys_Parts" deviceset="MBR0540T1G" device=""/>
-<part name="RFBB" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="13K"/>
-<part name="RGATE" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0402" package3d_urn="urn:adsk.eagle:package:23547/3" value="3.92"/>
-<part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0402K" package3d_urn="urn:adsk.eagle:package:23679/2" value="100nF"/>
+<part name="RFBB" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="13K"/>
+<part name="RGATE" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="3.92"/>
+<part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100nF"/>
 <part name="RSENSE" library="ERJ-L03KF50MV" deviceset="ERJ-L03KF50MV" device=""/>
 <part name="RFBT" library="CRCW2512300KJNEG" deviceset="CRCW2512300KJNEG" device=""/>
 <part name="RFBT1" library="CRCW2512300KJNEG" deviceset="CRCW2512300KJNEG" device=""/>
 <part name="RFBT2" library="CRCW2512402KFKEG" deviceset="CRCW2512402KFKEG" device=""/>
-<part name="CVCOMP2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0201" package3d_urn="urn:adsk.eagle:package:23690/2" value="22nF"/>
-<part name="RVCOMP" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0201" package3d_urn="urn:adsk.eagle:package:26117/2" value="287K"/>
+<part name="CVCOMP2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603K" package3d_urn="urn:adsk.eagle:package:23680/2" value="22nF"/>
+<part name="RVCOMP" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="287K"/>
 <part name="COUTX" library="cap-pan40" deviceset="C-NP" device="-10,0-14,0X6,0" value="100nF"/>
 <part name="DZ" library="TZMC1V0-M-18" deviceset="TZMC1V0-M-18" device="" package3d_urn="urn:adsk.eagle:package:11886536/1"/>
 <part name="CVCC" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="CT3216" package3d_urn="urn:adsk.eagle:package:23327/2" value="293D105X9025A2TE3"/>
