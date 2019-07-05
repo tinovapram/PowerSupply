@@ -24031,6 +24031,51 @@ Copyright: Würth Elektronik</description>
 <text x="-5.08" y="13" size="1.27" layer="25">&gt;NAME</text>
 <text x="-5.08" y="-13" size="1.27" layer="27">&gt;VALUE</text>
 </package>
+<package name="22X10X2(DXPXΦ)" urn="urn:adsk.eagle:footprint:491577/2" library_version="2">
+<pad name="1" x="5" y="0" drill="2"/>
+<pad name="2" x="-5" y="0" drill="2"/>
+<circle x="0" y="0" radius="11" width="0.127" layer="21"/>
+<circle x="0" y="0" radius="11.25" width="0.127" layer="39"/>
+<text x="-3.79" y="12.18" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.79" y="-13.2" size="1.27" layer="27">&gt;VALUE</text>
+<text x="11.85" y="-0.4" size="1.27" layer="21">+</text>
+</package>
+<package name="25X10X2(DXPXΦ)" urn="urn:adsk.eagle:footprint:491578/2" library_version="2">
+<pad name="1" x="5" y="0" drill="2"/>
+<pad name="2" x="-5" y="0" drill="2"/>
+<circle x="0" y="0" radius="12.5" width="0.127" layer="21"/>
+<circle x="0" y="0" radius="12.75" width="0.127" layer="39"/>
+<text x="-2.54" y="14.16" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.81" y="-15.43" size="1.27" layer="27">&gt;VALUE</text>
+<text x="13.3" y="-0.3" size="1.27" layer="21">+</text>
+</package>
+<package name="30X10X2(DXPXΦ)" urn="urn:adsk.eagle:footprint:491579/2" library_version="2">
+<pad name="1" x="5" y="0" drill="2"/>
+<pad name="2" x="-5" y="0" drill="2"/>
+<circle x="0" y="0" radius="15" width="0.127" layer="21"/>
+<circle x="0" y="0" radius="15.25" width="0.127" layer="39"/>
+<text x="-2.84" y="16.43" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.74" y="-17.5" size="1.27" layer="27">&gt;VALUE</text>
+<text x="16.6" y="-1" size="1.27" layer="21">+</text>
+</package>
+<package name="35X10X2(DXPXΦ)" urn="urn:adsk.eagle:footprint:491580/2" library_version="2">
+<pad name="1" x="5" y="0" drill="2"/>
+<pad name="2" x="-5" y="0" drill="2"/>
+<circle x="0" y="0" radius="17.5" width="0.127" layer="21"/>
+<circle x="0" y="0" radius="17.75" width="0.127" layer="39"/>
+<text x="-2.84" y="18.73" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.54" y="-20.7" size="1.27" layer="27">&gt;VALUE</text>
+<text x="18.7" y="-0.9" size="1.27" layer="21">+</text>
+</package>
+<package name="40X10X2(DXPXΦ)" urn="urn:adsk.eagle:footprint:491581/2" library_version="2">
+<pad name="1" x="5" y="0" drill="2"/>
+<pad name="2" x="-5" y="0" drill="2"/>
+<circle x="0" y="0" radius="20" width="0.127" layer="21"/>
+<circle x="0" y="0" radius="20.25" width="0.127" layer="39"/>
+<text x="-2.54" y="22.43" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.54" y="-23.7" size="1.27" layer="27">&gt;VALUE</text>
+<text x="21.7" y="-0.4" size="1.27" layer="21">+</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="WCAP-FTXX_7.5X11X10X6" urn="urn:adsk.eagle:package:491756/2" type="box" library_version="2">
@@ -24203,6 +24248,31 @@ Copyright: Würth Elektronik</description>
 <packageinstance name="WCAP-FTXX_37.5X41.5X35.5X22.5"/>
 </packageinstances>
 </package3d>
+<package3d name="22X10X2(DXPXΦ)" urn="urn:adsk.eagle:package:491738/2" type="box" library_version="2">
+<packageinstances>
+<packageinstance name="22X10X2(DXPXΦ)"/>
+</packageinstances>
+</package3d>
+<package3d name="25X10X2(DXPXΦ)" urn="urn:adsk.eagle:package:491737/2" type="box" library_version="2">
+<packageinstances>
+<packageinstance name="25X10X2(DXPXΦ)"/>
+</packageinstances>
+</package3d>
+<package3d name="30X10X2(DXPXΦ)" urn="urn:adsk.eagle:package:491739/2" type="box" library_version="2">
+<packageinstances>
+<packageinstance name="30X10X2(DXPXΦ)"/>
+</packageinstances>
+</package3d>
+<package3d name="35X10X2(DXPXΦ)" urn="urn:adsk.eagle:package:491740/2" type="box" library_version="2">
+<packageinstances>
+<packageinstance name="35X10X2(DXPXΦ)"/>
+</packageinstances>
+</package3d>
+<package3d name="40X10X2(DXPXΦ)" urn="urn:adsk.eagle:package:491741/2" type="box" library_version="2">
+<packageinstances>
+<packageinstance name="40X10X2(DXPXΦ)"/>
+</packageinstances>
+</package3d>
 </packages3d>
 <symbols>
 <symbol name="C_NON-POLARIZED" urn="urn:adsk.eagle:symbol:491576/2" library_version="2">
@@ -24212,6 +24282,20 @@ Copyright: Würth Elektronik</description>
 <pin name="2" x="0" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
 <rectangle x1="-1.905" y1="1.905" x2="1.905" y2="2.54" layer="94"/>
 <rectangle x1="-1.905" y1="0" x2="1.905" y2="0.635" layer="94"/>
+</symbol>
+<symbol name="C_POLARIZED" urn="urn:adsk.eagle:symbol:491568/2" library_version="2">
+<pin name="1" x="0" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
+<pin name="2" x="0" y="-2.54" visible="off" length="short" direction="pas" rot="R90"/>
+<text x="3.175" y="5.08" size="1.778" layer="95">&gt;NAME</text>
+<text x="3.175" y="-3.175" size="1.778" layer="96">&gt;VALUE</text>
+<wire x1="-2.54" y1="2.54" x2="2.54" y2="2.54" width="0.127" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="1.905" width="0.127" layer="94"/>
+<wire x1="-2.54" y1="1.905" x2="2.54" y2="1.905" width="0.127" layer="94"/>
+<wire x1="2.54" y1="1.905" x2="2.54" y2="2.54" width="0.127" layer="94"/>
+<wire x1="-1.905" y1="3.175" x2="-1.905" y2="4.445" width="0.127" layer="94"/>
+<wire x1="-2.54" y1="3.81" x2="-1.27" y2="3.81" width="0.127" layer="94"/>
+<wire x1="-2.54" y1="-1.27" x2="-1.27" y2="-1.27" width="0.127" layer="94"/>
+<rectangle x1="-0.3175" y1="-2.2225" x2="0.3175" y2="2.8575" layer="94" rot="R90"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -25643,6 +25727,538 @@ Created: 2014-09-15&lt;br&gt;
 <technologies>
 <technology name="">
 <attribute name="WE-NUMBER" value="890334025013CS/0,068uF" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WCAP-AIG8" urn="urn:adsk.eagle:component:491872/2" prefix="C" uservalue="yes" library_version="2">
+<description>&lt;b&gt;WCAP-AIG8 Aluminum Electrolytic Capacitors
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;Characteristics
+&lt;br&gt;&lt;/b&gt;Aluminum Electrolytic Capacitor
+&lt;br&gt;Recommended soldering: Wave
+&lt;br&gt;Operating temperature: -25 °C to +85 °C
+&lt;br&gt;General purpose product series
+&lt;br&gt;Load life:2000 h @ +85 °C
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt; Package name and Variant abbreviation:
+&lt;br&gt;&lt;/b&gt; Package:
+&lt;br&gt; D X P X Φ = Diameter of the outline X Pitch of the hole X Diameter of the  hole.
+
+&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;&lt;a href="http://katalog.we-online.de/media/images/eisos/WCAP-AIG8_pf2.jpg" title="Enlarge picture"&gt;
+&lt;img src="http://katalog.we-online.de/media/thumbs2/eisos/thb_WCAP-AIG8_pf2.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="http://katalog.we-online.de/en/pbs/WCAP-AIG8?m"&gt;http://katalog.we-online.de/en/pbs/WCAP-AIG8?m
+&lt;/a&gt;&lt;p&gt;Updated by: Yingchun,Shan
+&lt;/a&gt;&lt;p&gt;Updated: 2017-03-16
+&lt;br&gt;2017 (C) Wurth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="C_POLARIZED" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_861011483001" package="22X10X2(DXPXΦ)">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:491738/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_22X26">
+<attribute name="WE-NUMBER" value="861011483001/47uF" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_861011483002" package="22X10X2(DXPXΦ)">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:491738/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_22X31">
+<attribute name="WE-NUMBER" value="861011483002/68uF" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_861011483004" package="22X10X2(DXPXΦ)">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:491738/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_22X36">
+<attribute name="WE-NUMBER" value="861011483004/100uF" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_861011483005" package="22X10X2(DXPXΦ)">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:491738/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_22X41">
+<attribute name="WE-NUMBER" value="861011483005/120uF" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_861011483006" package="22X10X2(DXPXΦ)">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:491738/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_22X51">
+<attribute name="WE-NUMBER" value="861011483006/150uF" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_861011484008" package="25X10X2(DXPXΦ)">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:491737/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_25X26">
+<attribute name="WE-NUMBER" value="861011484008/82uF" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_861011484009" package="25X10X2(DXPXΦ)">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:491737/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_25X31">
+<attribute name="WE-NUMBER" value="861011484009/100uF" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_861011484010" package="25X10X2(DXPXΦ)">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:491737/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_25X36">
+<attribute name="WE-NUMBER" value="861011484010/120uF" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_861011484011" package="25X10X2(DXPXΦ)">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:491737/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_25X41">
+<attribute name="WE-NUMBER" value="861011484011/150uF" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_861011484012" package="25X10X2(DXPXΦ)">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:491737/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_25X46">
+<attribute name="WE-NUMBER" value="861011484012/180uF" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_861011484013" package="25X10X2(DXPXΦ)">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:491737/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_25X51">
+<attribute name="WE-NUMBER" value="861011484013/220uF" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_861011485014" package="30X10X2(DXPXΦ)">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:491739/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_30X31">
+<attribute name="WE-NUMBER" value="861011485014/150uF" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_861011485015" package="30X10X2(DXPXΦ)">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:491739/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_30X36">
+<attribute name="WE-NUMBER" value="861011485015/180uF" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_861011485016" package="30X10X2(DXPXΦ)">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:491739/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_30X41">
+<attribute name="WE-NUMBER" value="861011485016/220uF" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_861011485017" package="30X10X2(DXPXΦ)">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:491739/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_30X46">
+<attribute name="WE-NUMBER" value="861011485017/270uF" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_861011486020" package="35X10X2(DXPXΦ)">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:491740/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_35X37">
+<attribute name="WE-NUMBER" value="861011486020/220uF" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_861011486023" package="35X10X2(DXPXΦ)">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:491740/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_35X42">
+<attribute name="WE-NUMBER" value="861011486023/390uF" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_861011486024" package="35X10X2(DXPXΦ)">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:491740/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_35X47">
+<attribute name="WE-NUMBER" value="861011486024/470uF" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_861011487025" package="40X10X2(DXPXΦ)">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:491741/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_40X37">
+<attribute name="WE-NUMBER" value="861011487025/390uF" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_861011487026" package="40X10X2(DXPXΦ)">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:491741/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_40X42">
+<attribute name="WE-NUMBER" value="861011487026/470uF" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_861011487027" package="40X10X2(DXPXΦ)">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:491741/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_40X52">
+<attribute name="WE-NUMBER" value="861011487027/560uF" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_861010784009" package="25X10X2(DXPXΦ)">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:491737/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_25X30"/>
+</technologies>
+</device>
+<device name="_861010786015" package="35X10X2(DXPXΦ)">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:491740/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_35X25">
+<attribute name="WE-NUMBER" value="861010786015/4700uF" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_861010786021" package="35X10X2(DXPXΦ)">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:491740/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_35X30">
+<attribute name="WE-NUMBER" value="861010786021/6800uF" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_861011084009" package="25X10X2(DXPXΦ)">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:491737/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_25X25">
+<attribute name="WE-NUMBER" value="861011084009/470uF" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_861011385023" package="30X10X2(DXPXΦ)">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:491739/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_30X30">
+<attribute name="WE-NUMBER" value="861011385023/330uF" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_861011086027" package="35X10X2(DXPXΦ)">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:491740/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_35X35">
+<attribute name="WE-NUMBER" value="861011086027/1500uF" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_861011084015" package="25X10X2(DXPXΦ)">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:491737/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_25X30">
+<attribute name="WE-NUMBER" value="861011084015/680uF" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_861011384014" package="25X10X2(DXPXΦ)">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:491737/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_25X30">
+<attribute name="WE-NUMBER" value="861011384014/220uF" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_861011386030" package="35X10X2(DXPXΦ)">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:491740/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_35X35">
+<attribute name="WE-NUMBER" value="861011386030/470uF" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_861011483003" package="22X10X2(DXPXΦ)">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:491738/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_22X31">
+<attribute name="WE-NUMBER" value="861011483003/82uF" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_861011483007" package="22X10X2(DXPXΦ)">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:491738/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_22X51">
+<attribute name="WE-NUMBER" value="861011483007/180uF" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_861011485018" package="30X10X2(DXPXΦ)">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:491739/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_30X46">
+<attribute name="WE-NUMBER" value="861011485018/330uF" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_861011485019" package="30X10X2(DXPXΦ)">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:491739/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_30X46">
+<attribute name="WE-NUMBER" value="861011485019/390uF" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_861011486021" package="35X10X2(DXPXΦ)">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:491740/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_35X37">
+<attribute name="WE-NUMBER" value="861011486021/270uF" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_861011486022" package="35X10X2(DXPXΦ)">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:491740/2"/>
+</package3dinstances>
+<technologies>
+<technology name="_35X37">
+<attribute name="WE-NUMBER" value="861011486022/330uF" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -30796,7 +31412,6 @@ Allows current flow in one direction, but allows reverse flow when above breakdo
 <part name="LS4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="153CLV-1010" package3d_urn="urn:adsk.eagle:package:23413/2"/>
 <part name="Q1" library="SamacSys_Parts" deviceset="CSD19531Q5AT" device=""/>
 <part name="LBST" library="Wurth_Elektronik_Passive_rev18f" library_urn="urn:adsk.eagle:library:7584915" deviceset="WE-SI" device="_744139" package3d_urn="urn:adsk.eagle:package:7586520/3" value="494.23uH"/>
-<part name="COUT" library="cap-pan40" deviceset="C-NP" device="-10,0-14,0X6,0" value="5.435mF"/>
 <part name="DSTART" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="1N4446" device="" package3d_urn="urn:adsk.eagle:package:43344/2"/>
 <part name="RGATE1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="1.07"/>
 <part name="RGATE2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10K"/>
@@ -30829,6 +31444,8 @@ Allows current flow in one direction, but allows reverse flow when above breakdo
 <part name="CVCC" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="CT3216" package3d_urn="urn:adsk.eagle:package:23327/2" value="293D105X9025A2TE3"/>
 <part name="CIN" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="150-072X183" package3d_urn="urn:adsk.eagle:package:23657/1" value="890283325008CS"/>
 <part name="B2" library="rectifier" library_urn="urn:adsk.eagle:library:336" deviceset="GBU4" device="" package3d_urn="urn:adsk.eagle:package:23875/1"/>
+<part name="C3" library="Wurth_Elektronik_Passive_Capacitors_rev18b" library_urn="urn:adsk.eagle:library:491551" deviceset="WCAP-AIG8" device="_861011485018" package3d_urn="urn:adsk.eagle:package:491739/2" technology="_30X46"/>
+<part name="C6" library="Wurth_Elektronik_Passive_Capacitors_rev18b" library_urn="urn:adsk.eagle:library:491551" deviceset="WCAP-AIG8" device="_861011485018" package3d_urn="urn:adsk.eagle:package:491739/2" technology="_30X46"/>
 </parts>
 <sheets>
 <sheet>
@@ -31043,10 +31660,6 @@ PMP20694</description>
 <attribute name="NAME" x="55.88" y="93.98" size="1.778" layer="95"/>
 <attribute name="VALUE" x="55.88" y="88.9" size="1.778" layer="96"/>
 </instance>
-<instance part="COUT" gate="G$1" x="132.08" y="76.2" smashed="yes" rot="R270">
-<attribute name="NAME" x="127.635" y="78.74" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="135.636" y="80.9625" size="1.778" layer="96" rot="R270"/>
-</instance>
 <instance part="DSTART" gate="1" x="73.66" y="101.6" smashed="yes">
 <attribute name="NAME" x="76.2" y="102.0826" size="1.778" layer="95"/>
 <attribute name="VALUE" x="76.2" y="99.2886" size="1.778" layer="96"/>
@@ -31172,6 +31785,14 @@ PMP20694</description>
 <attribute name="NAME" x="10.16" y="93.98" size="1.778" layer="95"/>
 <attribute name="VALUE" x="10.16" y="87.63" size="1.778" layer="96"/>
 </instance>
+<instance part="C3" gate="G$1" x="132.08" y="73.66" smashed="yes">
+<attribute name="NAME" x="135.255" y="78.74" size="1.778" layer="95"/>
+<attribute name="VALUE" x="135.255" y="70.485" size="1.778" layer="96"/>
+</instance>
+<instance part="C6" gate="G$1" x="142.24" y="73.66" smashed="yes">
+<attribute name="NAME" x="145.415" y="78.74" size="1.778" layer="95"/>
+<attribute name="VALUE" x="145.415" y="70.485" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -31247,7 +31868,6 @@ PMP20694</description>
 <segment>
 <pinref part="DSTART" gate="1" pin="C"/>
 <wire x1="76.2" y1="101.6" x2="132.08" y2="101.6" width="0.1524" layer="91"/>
-<pinref part="COUT" gate="G$1" pin="1"/>
 <wire x1="132.08" y1="78.74" x2="132.08" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="91.44" x2="132.08" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="101.6" x2="132.08" y2="91.44" width="0.1524" layer="91"/>
@@ -31263,6 +31883,10 @@ PMP20694</description>
 <wire x1="152.4" y1="91.44" x2="170.18" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="RFBT2" gate="A" pin="1"/>
 <wire x1="170.18" y1="91.44" x2="170.18" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="C3" gate="G$1" pin="1"/>
+<junction x="132.08" y="78.74"/>
+<pinref part="C6" gate="G$1" pin="1"/>
+<wire x1="142.24" y1="78.74" x2="132.08" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$9" class="0">
@@ -31444,8 +32068,7 @@ PMP20694</description>
 </net>
 <net name="GND" class="0">
 <segment>
-<pinref part="COUT" gate="G$1" pin="2"/>
-<wire x1="132.08" y1="55.88" x2="132.08" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="132.08" y1="55.88" x2="132.08" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="55.88" x2="132.08" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="PGND" gate="1" pin="GND"/>
 <junction x="116.84" y="55.88"/>
@@ -31462,6 +32085,11 @@ PMP20694</description>
 <junction x="132.08" y="55.88"/>
 <pinref part="COUTX" gate="G$1" pin="2"/>
 <wire x1="152.4" y1="55.88" x2="152.4" y2="73.66" width="0.1524" layer="91"/>
+<junction x="132.08" y="71.12"/>
+<pinref part="C3" gate="G$1" pin="2"/>
+<junction x="132.08" y="71.12"/>
+<pinref part="C6" gate="G$1" pin="2"/>
+<wire x1="132.08" y1="71.12" x2="142.24" y2="71.12" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$31" class="0">
