@@ -4764,18 +4764,12 @@ design rules under a new name.</description>
 <contactref element="RS1" pad="2"/>
 <contactref element="D7" pad="1"/>
 <contactref element="T3" pad="6"/>
-<wire x1="7.62" y1="45.72" x2="7.62" y2="33.9725" width="0.1524" layer="1"/>
-<wire x1="7.62" y1="33.9725" x2="9.8425" y2="31.75" width="0.1524" layer="1"/>
 <wire x1="9.68375" y1="31.90875" x2="9.8425" y2="31.75" width="0.1524" layer="1"/>
 <via x="9.8425" y="31.75" extent="1-16" drill="0.35" diameter="0.55" shape="octagon"/>
-<wire x1="9.8425" y1="31.75" x2="19.685" y2="31.75" width="0.1524" layer="16"/>
-<wire x1="19.685" y1="31.75" x2="20.0025" y2="31.4325" width="0.1524" layer="16"/>
-<wire x1="9.8425" y1="31.75" x2="-44.45" y2="-35.88" width="0" layer="19" extent="1-1"/>
-<wire x1="57.47" y1="-36.66" x2="20.0025" y2="31.4325" width="0" layer="19" extent="1-16"/>
 <polygon width="0.1524" layer="1">
 <vertex x="6.0325" y="45.72"/>
-<vertex x="6.35" y="46.0375"/>
-<vertex x="6.35" y="46.355"/>
+<vertex x="6.6675" y="46.355"/>
+<vertex x="6.6675" y="46.6725"/>
 <vertex x="6.985" y="46.99"/>
 <vertex x="8.255" y="46.99"/>
 <vertex x="8.89" y="46.355"/>
@@ -4785,33 +4779,29 @@ design rules under a new name.</description>
 <vertex x="10.795" y="33.655"/>
 <vertex x="12.3825" y="33.655"/>
 <vertex x="13.0175" y="33.02"/>
-<vertex x="13.0175" y="32.0675"/>
 <vertex x="13.0175" y="30.1625"/>
 <vertex x="12.3825" y="29.5275"/>
 <vertex x="7.62" y="29.5275"/>
-<vertex x="6.35" y="30.7975"/>
 <vertex x="6.0325" y="31.115"/>
 <vertex x="6.0325" y="45.72"/>
 <vertex x="6.35" y="46.0375"/>
-</polygon>
-<polygon width="0.1524" layer="16">
-<vertex x="8.5725" y="32.7025"/>
-<vertex x="8.5725" y="33.3375"/>
-<vertex x="8.89" y="33.655"/>
-<vertex x="18.0975" y="33.655"/>
-<vertex x="18.415" y="33.3375"/>
-<vertex x="19.3675" y="32.385"/>
-<vertex x="19.3675" y="31.75"/>
-<vertex x="19.3675" y="30.1625"/>
-<vertex x="19.05" y="29.845"/>
-<vertex x="8.89" y="29.845"/>
-<vertex x="8.5725" y="30.1625"/>
 </polygon>
 <via x="9.8425" y="33.02" extent="1-16" drill="0.35" diameter="0.55" shape="octagon"/>
 <via x="11.43" y="33.02" extent="1-16" drill="0.35" diameter="0.55" shape="octagon"/>
 <via x="11.43" y="31.75" extent="1-16" drill="0.35" diameter="0.55" shape="octagon"/>
 <via x="11.43" y="30.48" extent="1-16" drill="0.35" diameter="0.55" shape="octagon"/>
 <via x="9.8425" y="30.48" extent="1-16" drill="0.35" diameter="0.55" shape="octagon"/>
+<wire x1="7.62" y1="45.72" x2="7.62" y2="33.9725" width="2.54" layer="1"/>
+<wire x1="7.62" y1="33.9725" x2="9.8425" y2="31.75" width="2.54" layer="1"/>
+<wire x1="9.8425" y1="31.75" x2="19.685" y2="31.75" width="2.54" layer="16"/>
+<wire x1="19.685" y1="31.75" x2="20.0025" y2="31.4325" width="2.54" layer="16"/>
+<wire x1="9.8425" y1="30.48" x2="-44.45" y2="-35.88" width="0" layer="19" extent="1-1"/>
+<wire x1="9.8425" y1="31.75" x2="9.8425" y2="30.48" width="0" layer="19" extent="1-1"/>
+<wire x1="9.8425" y1="33.02" x2="9.68375" y2="31.90875" width="0" layer="19" extent="1-1"/>
+<wire x1="11.43" y1="33.02" x2="9.8425" y2="33.02" width="0" layer="19" extent="1-1"/>
+<wire x1="11.43" y1="31.75" x2="11.43" y2="33.02" width="0" layer="19" extent="1-1"/>
+<wire x1="11.43" y1="30.48" x2="11.43" y2="31.75" width="0" layer="19" extent="1-1"/>
+<wire x1="57.47" y1="-36.66" x2="20.0025" y2="31.4325" width="0" layer="19" extent="1-16"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
