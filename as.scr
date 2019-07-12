@@ -1,0 +1,340 @@
+# NetScript
+# 
+# Exported from Main-DESKTOP-GF130J3.sch at 12-Jul-19 10:17
+# 
+# EAGLE Version 9.4.2 Copyright (c) 1988-2019 Autodesk, Inc.
+# 
+Change Class 0;
+Signal 'EMIOUT1'  'B2'       'AC2' \
+                  'C5'       '2' \
+                  'CY3'      '1' \
+                  'L3'       '9' \
+                  ;
+Change Class 0;
+Signal 'EMIOUT2'  'B2'       'AC1' \
+                  'C5'       '1' \
+                  'CY4'      '2' \
+                  'L3'       '7' \
+                  ;
+Change Class 0;
+Signal 'GATE'     'IC1'      '8' \
+                  'RGATE'    '2' \
+                  ;
+Change Class 0;
+Signal 'GND'      'IC4'      '5' \
+                  ;
+Change Class 0;
+Signal 'N$1'      'B2'       '-' \
+                  'L6'       '1' \
+                  ;
+Change Class 0;
+Signal 'N$2'      'CIN'      '2' \
+                  'L6'       '2' \
+                  'R15'      '1' \
+                  'RISENSE'  '1' \
+                  ;
+Change Class 0;
+Signal 'N$3'      'DBOOST'   'A' \
+                  'LBST'     '2' \
+                  'Q2'       'D' \
+                  ;
+Change Class 0;
+Signal 'N$4'      'B2'       '+' \
+                  'L5'       '2' \
+                  ;
+Change Class 0;
+Signal 'N$5'      'LS1'      '2' \
+                  'R13'      '1' \
+                  'R14'      '2' \
+                  'U1'       '2' \
+                  ;
+Change Class 0;
+Signal 'N$6'      'CFB3'     '2' \
+                  'IC2'      '3' \
+                  'RFB3'     '1' \
+                  ;
+Change Class 0;
+Signal 'N$7'      'CIN'      '1' \
+                  'DSTART'   'A' \
+                  'L5'       '1' \
+                  'LBST'     '1' \
+                  ;
+Change Class 0;
+Signal 'N$8'      'T3'       '3' \
+                  'T3'       '4' \
+                  ;
+Change Class 0;
+Signal 'N$9'      'IC5'      '1' \
+                  'IC5'      '2' \
+                  ;
+Change Class 0;
+Signal 'N$10'     'DTURNOFF' '2' \
+                  'Q2'       'G' \
+                  'RGATE1'   '2' \
+                  'RGATE2'   '1' \
+                  ;
+Change Class 0;
+Signal 'N$11'     'DTURNOFF' '1' \
+                  'RGATE'    '1' \
+                  'RGATE1'   '1' \
+                  ;
+Change Class 0;
+Signal 'N$15'     'IC2'      '1' \
+                  'R11'      '2' \
+                  'R12'      '1' \
+                  ;
+Change Class 0;
+Signal 'N$16'     'CVCOMP'   '1' \
+                  'RVCOMP'   '2' \
+                  ;
+Change Class 0;
+Signal 'N$17'     'CFB3'     '1' \
+                  'L2'       '3' \
+                  'RFB3'     '2' \
+                  'RFB4'     '2' \
+                  ;
+Change Class 0;
+Signal 'N$18'     'IC2'      '2' \
+                  'LS1'      '1' \
+                  'R11'      '1' \
+                  'U1'       '1' \
+                  ;
+Change Class 0;
+Signal 'N$19'     'LS4'      '+' \
+                  'R10'      '2' \
+                  'R12'      '2' \
+                  'R13'      '2' \
+                  'R7'       '2' \
+                  'T3'       '12' \
+                  'T3'       '13' \
+                  ;
+Change Class 0;
+Signal 'N$20'     'R2'       '1' \
+                  'R3'       '1' \
+                  ;
+Change Class 0;
+Signal 'N$21'     'IC3'      '2' \
+                  'R7'       '1' \
+                  'R8'       '2' \
+                  ;
+Change Class 0;
+Signal 'N$22'     'IC3'      '4' \
+                  'Q1'       '4' \
+                  ;
+Change Class 0;
+Signal 'N$23'     'IC3'      '1' \
+                  'R1'       '1' \
+                  'R5'       '2' \
+                  ;
+Change Class 0;
+Signal 'N$24'     'IC3'      '3' \
+                  'R9'       '2' \
+                  ;
+Change Class 0;
+Signal 'N$25'     'R3'       '2' \
+                  'R4'       '2' \
+                  ;
+Change Class 0;
+Signal 'N$26'     'IC3'      '6' \
+                  'LS3'      '1' \
+                  'R6'       '1' \
+                  ;
+Change Class 0;
+Signal 'N$27'     'L2'       '2' \
+                  'LS2'      '1' \
+                  'RS1'      '1' \
+                  'RS2'      '2' \
+                  ;
+Change Class 0;
+Signal 'N$28'     'RFBT1'    '1' \
+                  'RFBT2'    '2' \
+                  ;
+Change Class 0;
+Signal 'N$29'     'CY1'      '1' \
+                  'F2'       '1' \
+                  'X1'       '3' \
+                  ;
+Change Class 0;
+Signal 'N$30'     'Q1'       '5' \
+                  'Q1'       '6' \
+                  'Q1'       '7' \
+                  'Q1'       '8' \
+                  'Q1'       '9' \
+                  'R1'       '2' \
+                  'R6'       '2' \
+                  'T3'       '10' \
+                  'T3'       '9' \
+                  ;
+Change Class 0;
+Signal 'N$31'     'RFBT'     '1' \
+                  'RFBT1'    '2' \
+                  ;
+Change Class 0;
+Signal 'N$38'     'CY2'      '2' \
+                  'RV1'      '1' \
+                  'TR1'      '2' \
+                  'X1'       '1' \
+                  ;
+Change Class 0;
+Signal 'N$40'     'C4'       '2' \
+                  'L3'       '4' \
+                  'R4'       '1' \
+                  'TR1'      '1' \
+                  ;
+Change Class 0;
+Signal 'N$41'     'L2'       '6' \
+                  'R21'      '1' \
+                  ;
+Change Class 0;
+Signal 'N$42'     'CLC'      '1' \
+                  'L2'       '5' \
+                  'RLC'      '2' \
+                  ;
+Change Class 0;
+Signal 'N$43'     'R20'      '1' \
+                  'R21'      '2' \
+                  ;
+Change Class 0;
+Signal 'N$44'     'Q3'       'G' \
+                  'R19'      '2' \
+                  'R20'      '2' \
+                  ;
+Change Class 0;
+Signal 'N$45'     'CY1'      '2' \
+                  'CY2'      '1' \
+                  'CY3'      '2' \
+                  'CY4'      '1' \
+                  'X1'       '2' \
+                  ;
+Change Class 0;
+Signal 'N$46'     'Q3'       'S' \
+                  'R19'      '1' \
+                  'RCS1'     '2' \
+                  'RCS2'     '2' \
+                  'RLC'      '1' \
+                  ;
+Change Class 0;
+Signal 'N$47'     'D7'       '1' \
+                  'RS1'      '2' \
+                  'T3'       '6' \
+                  ;
+Change Class 0;
+Signal 'N$50'     'C9'       '2' \
+                  'D1'       'C' \
+                  'D4'       '1' \
+                  ;
+Change Class 0;
+Signal 'N$52'     'D1'       'A' \
+                  'Q3'       'D' \
+                  'T3'       '2' \
+                  ;
+Change Class 0;
+Signal 'N$FREQ'   'IC1'      '4' \
+                  'RFREQ1'   '1' \
+                  ;
+Change Class 0;
+Signal 'N$ICOMP'  'CICOMP'   '2' \
+                  'IC1'      '2' \
+                  ;
+Change Class 0;
+Signal 'N$ISENSE' 'CISENSE'  '1' \
+                  'DZ'       '1' \
+                  'IC1'      '3' \
+                  'RISENSE'  '2' \
+                  ;
+Change Class 0;
+Signal 'N$VCOMP'  'CVCOMP2'  '2' \
+                  'IC1'      '5' \
+                  'RVCOMP'   '1' \
+                  ;
+Change Class 0;
+Signal 'N$VSENSE' 'CVSENSE'  '2' \
+                  'IC1'      '6' \
+                  'RFBB'     '1' \
+                  'RFBT'     '2' \
+                  ;
+Change Class 0;
+Signal 'PGND'     'C1'       '2' \
+                  'C3'       '2' \
+                  'C8'       '2' \
+                  'CDD'      '2' \
+                  'CDD1'     '-' \
+                  'CDD2'     '2' \
+                  'CICOMP'   '1' \
+                  'CISENSE'  '2' \
+                  'CLC'      '2' \
+                  'COUTX'    '2' \
+                  'CVCC'     '-' \
+                  'CVCOMP'   '2' \
+                  'CVCOMP2'  '1' \
+                  'CVSENSE'  '1' \
+                  'DZ'       '2' \
+                  'IC1'      '1' \
+                  'L2'       '4' \
+                  'LS2'      '2' \
+                  'Q2'       'S' \
+                  'R15'      '2' \
+                  'RCS1'     '1' \
+                  'RCS2'     '1' \
+                  'RFB4'     '1' \
+                  'RFBB'     '2' \
+                  'RFREQ1'   '2' \
+                  'RGATE2'   '2' \
+                  'RS2'      '1' \
+                  'T3'       '7' \
+                  'U2'       '2' \
+                  ;
+Change Class 0;
+Signal 'PH2'      'C4'       '1' \
+                  'F2'       '2' \
+                  'L3'       '2' \
+                  'R2'       '2' \
+                  'RV1'      '2' \
+                  ;
+Change Class 0;
+Signal 'VBULK'    'C3'       '1' \
+                  'C8'       '1' \
+                  'C9'       '1' \
+                  'COUTX'    '1' \
+                  'D4'       '2' \
+                  'DBOOST'   'C' \
+                  'DSTART'   'C' \
+                  'L2'       '7' \
+                  'RFBT2'    '1' \
+                  'T3'       '5' \
+                  ;
+Change Class 0;
+Signal 'VCC'      'IC4'      '3' \
+                  ;
+Change Class 0;
+Signal 'VCCCIC'   'C1'       '1' \
+                  'CVCC'     '+' \
+                  'D7'       '3' \
+                  'IC1'      '7' \
+                  ;
+Change Class 0;
+Signal 'VDD'      'CDD'      '1' \
+                  'CDD1'     '+' \
+                  'CDD2'     '1' \
+                  'D7'       '2' \
+                  'IC2'      '4' \
+                  'IC5'      '7' \
+                  'L2'       '1' \
+                  ;
+Change Class 0;
+Signal 'VOGND'    'IC3'      '5' \
+                  'LS3'      '2' \
+                  'LS4'      '-' \
+                  'Q1'       '1' \
+                  'Q1'       '2' \
+                  'Q1'       '3' \
+                  'R10'      '1' \
+                  'R14'      '1' \
+                  'R5'       '1' \
+                  'R8'       '1' \
+                  'R9'       '1' \
+                  'U1'       '3' \
+                  ;
+Change Class 0;
+Signal 'VSS'      'IC5'      '3' \
+                  ;
