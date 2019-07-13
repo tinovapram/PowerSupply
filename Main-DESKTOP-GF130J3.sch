@@ -396,27 +396,6 @@
 <wire x1="-17.75" y1="-6.75" x2="-17.75" y2="6.75" width="0.1" layer="51"/>
 <rectangle x1="-10" y1="-1" x2="10" y2="1" layer="21"/>
 </package>
-<package name="HSEB20254035H">
-<description>&lt;b&gt;HSE-B20254-035H&lt;/b&gt;&lt;br&gt;
-</description>
-<pad name="1" x="-12.7" y="0" drill="2.5" diameter="3.75"/>
-<pad name="2" x="12.7" y="0" drill="2.5" diameter="3.75"/>
-<text x="-8.89" y="-3.81" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="-7.62" y="3.81" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-17.5" y1="6.35" x2="17.5" y2="6.35" width="0.2" layer="51"/>
-<wire x1="17.5" y1="6.35" x2="17.5" y2="-6.35" width="0.2" layer="51"/>
-<wire x1="17.5" y1="-6.35" x2="-17.5" y2="-6.35" width="0.2" layer="51"/>
-<wire x1="-17.5" y1="-6.35" x2="-17.5" y2="6.35" width="0.2" layer="51"/>
-<wire x1="-17.5" y1="6.35" x2="17.5" y2="6.35" width="0.1" layer="21"/>
-<wire x1="17.5" y1="6.35" x2="17.5" y2="-6.35" width="0.1" layer="21"/>
-<wire x1="17.5" y1="-6.35" x2="-17.5" y2="-6.35" width="0.1" layer="21"/>
-<wire x1="-17.5" y1="-6.35" x2="-17.5" y2="6.35" width="0.1" layer="21"/>
-<wire x1="-18.5" y1="7.35" x2="18.5" y2="7.35" width="0.1" layer="51"/>
-<wire x1="18.5" y1="7.35" x2="18.5" y2="-7.35" width="0.1" layer="51"/>
-<wire x1="18.5" y1="-7.35" x2="-18.5" y2="-7.35" width="0.1" layer="51"/>
-<wire x1="-18.5" y1="-7.35" x2="-18.5" y2="7.35" width="0.1" layer="51"/>
-<rectangle x1="-10.20318125" y1="-0.784859375" x2="10.20318125" y2="0.784859375" layer="21"/>
-</package>
 <package name="SOP65P490X110-8N">
 <description>&lt;b&gt;DGK (S-PDSO-G8)&lt;/b&gt;&lt;br&gt;
 </description>
@@ -637,16 +616,6 @@
 <wire x1="-5.08" y1="2.54" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
 <text x="1.27" y="5.08" size="1.778" layer="95" align="center-left">&gt;NAME</text>
 <text x="1.27" y="2.54" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
-<pin name="1" x="-10.16" y="0" length="middle"/>
-<pin name="2" x="10.16" y="0" length="middle" rot="R180"/>
-</symbol>
-<symbol name="HSE-B20254-035H">
-<wire x1="-5.08" y1="2.54" x2="5.08" y2="2.54" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-2.54" x2="5.08" y2="2.54" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-2.54" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="2.54" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
-<text x="-6.35" y="5.08" size="1.778" layer="95" align="center-left">&gt;NAME</text>
-<text x="3.81" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
 <pin name="1" x="-10.16" y="0" length="middle"/>
 <pin name="2" x="10.16" y="0" length="middle" rot="R180"/>
 </symbol>
@@ -1007,33 +976,6 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/HSE-B20250-04
 <attribute name="MANUFACTURER_PART_NUMBER" value="HSE-B20250-040H-01" constant="no"/>
 <attribute name="MOUSER_PART_NUMBER" value="490-HSE-B20250040H01" constant="no"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=490-HSE-B20250040H01" constant="no"/>
-<attribute name="RS_PART_NUMBER" value="" constant="no"/>
-<attribute name="RS_PRICE-STOCK" value="" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="HSE-B20254-035H" prefix="U">
-<description>&lt;b&gt;Heat Sinks 25.4x34.92x12.7mm extrusion TO-220&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="http://www.mouser.com/ds/2/670/hse-bx-02-1309322.pdf"&gt; Datasheet &lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="HSE-B20254-035H" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="HSEB20254035H">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="DESCRIPTION" value="Heat Sinks 25.4x34.92x12.7mm extrusion TO-220" constant="no"/>
-<attribute name="HEIGHT" value="25mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="CUI" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="HSE-B20254-035H" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="490-HSE-B20254-035H" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=490-HSE-B20254-035H" constant="no"/>
 <attribute name="RS_PART_NUMBER" value="" constant="no"/>
 <attribute name="RS_PRICE-STOCK" value="" constant="no"/>
 </technology>
@@ -31827,7 +31769,6 @@ DIN A3, landscape with location and doc. field</description>
 <part name="R15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R3216" package3d_urn="urn:adsk.eagle:package:23557/2" value="WSK1206R0300FEA18"/>
 <part name="H1" library="SamacSys_Parts" deviceset="CSM222-30AE" device=""/>
 <part name="H2" library="SamacSys_Parts" deviceset="HSE-B20250-040H-01" device=""/>
-<part name="U2" library="SamacSys_Parts" deviceset="HSE-B20254-035H" device=""/>
 <part name="IC4" library="SamacSys_Parts" deviceset="LM5021MM-1" device=""/>
 <part name="IC5" library="SamacSys_Parts" deviceset="UCC27714DR" device="" override_package3d_urn="urn:adsk.eagle:package:12025919/2" override_package_urn="urn:adsk.eagle:footprint:12025920/1" override_locally_modified="yes"/>
 <part name="T2" library="SamacSys_Parts" deviceset="750315800" device=""/>
@@ -32189,10 +32130,6 @@ PMP20694</description>
 <attribute name="NAME" x="107.95" y="68.58" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="113.03" y="68.58" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="U2" gate="G$1" x="121.92" y="43.18" smashed="yes">
-<attribute name="NAME" x="138.43" y="50.8" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="138.43" y="48.26" size="1.778" layer="96" align="center-left"/>
-</instance>
 <instance part="FRAME2" gate="G$1" x="-91.44" y="-78.74" smashed="yes">
 <attribute name="DRAWING_NAME" x="252.73" y="-63.5" size="2.54" layer="94"/>
 <attribute name="LAST_DATE_TIME" x="252.73" y="-68.58" size="2.286" layer="94"/>
@@ -32496,11 +32433,8 @@ PMP20694</description>
 <wire x1="63.5" y1="55.88" x2="63.5" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="R15" gate="G$1" pin="2"/>
 <wire x1="63.5" y1="48.26" x2="58.42" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="132.08" y1="55.88" x2="132.08" y2="43.18" width="0.1524" layer="91"/>
 <junction x="132.08" y="-10.16"/>
-<pinref part="U2" gate="G$1" pin="2"/>
-<wire x1="132.08" y1="43.18" x2="132.08" y2="-10.16" width="0.1524" layer="91"/>
-<junction x="132.08" y="43.18"/>
+<wire x1="132.08" y1="55.88" x2="132.08" y2="-10.16" width="0.1524" layer="91"/>
 <pinref part="Q2" gate="G$1" pin="S"/>
 <wire x1="99.314" y1="68.199" x2="99.06" y2="65.659" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="65.659" x2="99.06" y2="55.88" width="0.1524" layer="91"/>
@@ -32538,9 +32472,9 @@ PMP20694</description>
 <attribute name="NAME" x="-6.096" y="68.961" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-6.096" y="63.881" size="1.778" layer="96"/>
 </instance>
-<instance part="RCS1" gate="G$1" x="96.52" y="66.04" smashed="yes" rot="R90">
-<attribute name="NAME" x="95.0214" y="62.23" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="99.822" y="62.23" size="1.778" layer="96" rot="R90"/>
+<instance part="RCS1" gate="G$1" x="99.06" y="66.04" smashed="yes" rot="R90">
+<attribute name="NAME" x="97.5614" y="62.23" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="102.362" y="62.23" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="RS1" gate="G$1" x="-2.54" y="86.36" smashed="yes" rot="R90">
 <attribute name="NAME" x="-4.0386" y="82.55" size="1.778" layer="95" rot="R90"/>
@@ -32554,9 +32488,9 @@ PMP20694</description>
 <attribute name="NAME" x="92.71" y="69.6214" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="92.71" y="74.422" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="RCS2" gate="G$1" x="101.6" y="66.04" smashed="yes" rot="R90">
-<attribute name="NAME" x="100.1014" y="62.23" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="104.902" y="62.23" size="1.778" layer="96" rot="R90"/>
+<instance part="RCS2" gate="G$1" x="104.14" y="66.04" smashed="yes" rot="R90">
+<attribute name="NAME" x="102.6414" y="62.23" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="107.442" y="62.23" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="R19" gate="G$1" x="96.52" y="78.74" smashed="yes" rot="R90">
 <attribute name="NAME" x="95.0214" y="74.93" size="1.778" layer="95" rot="R90"/>
@@ -32773,7 +32707,7 @@ PMP20694</description>
 <wire x1="50.673" y1="127" x2="50.673" y2="131.191" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$41" class="0">
+<net name="N$DRV" class="0">
 <segment>
 <pinref part="L2" gate="G$1" pin="DRV"/>
 <wire x1="59.69" y1="76.2" x2="63.5" y2="76.2" width="0.1524" layer="91"/>
@@ -32799,23 +32733,22 @@ PMP20694</description>
 <pinref part="Q3" gate="G$1" pin="G"/>
 </segment>
 </net>
-<net name="N$46" class="0">
+<net name="TOISENSE" class="0">
 <segment>
 <pinref part="R19" gate="G$1" pin="1"/>
 <pinref part="RCS1" gate="G$1" pin="2"/>
-<wire x1="96.52" y1="73.66" x2="96.52" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="73.66" x2="99.06" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="RLC" gate="G$1" pin="1"/>
-<wire x1="96.52" y1="71.12" x2="93.98" y2="71.12" width="0.1524" layer="91"/>
-<junction x="96.52" y="71.12"/>
+<wire x1="99.06" y1="71.12" x2="93.98" y2="71.12" width="0.1524" layer="91"/>
+<junction x="99.06" y="71.12"/>
 <pinref part="RCS2" gate="G$1" pin="2"/>
-<wire x1="101.6" y1="71.12" x2="96.52" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="71.12" x2="99.06" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="Q3" gate="G$1" pin="S"/>
-<wire x1="101.6" y1="71.12" x2="104.14" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="71.12" x2="104.14" y2="81.28" width="0.1524" layer="91"/>
-<junction x="101.6" y="71.12"/>
+<junction x="104.14" y="71.12"/>
 </segment>
 </net>
-<net name="N$42" class="0">
+<net name="N$CS" class="0">
 <segment>
 <pinref part="RLC" gate="G$1" pin="2"/>
 <pinref part="CLC" gate="G$1" pin="1"/>
@@ -32870,10 +32803,10 @@ PMP20694</description>
 <wire x1="81.28" y1="60.96" x2="81.28" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="RCS2" gate="G$1" pin="1"/>
 <pinref part="RCS1" gate="G$1" pin="1"/>
-<wire x1="101.6" y1="60.96" x2="96.52" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="81.28" y1="60.96" x2="96.52" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="60.96" x2="99.06" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="60.96" x2="99.06" y2="60.96" width="0.1524" layer="91"/>
 <junction x="81.28" y="60.96"/>
-<junction x="96.52" y="60.96"/>
+<junction x="99.06" y="60.96"/>
 <pinref part="L2" gate="G$1" pin="GND"/>
 <wire x1="33.02" y1="71.12" x2="34.29" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="RFB4" gate="G$1" pin="1"/>
